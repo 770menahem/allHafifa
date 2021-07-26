@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link rel="icon" href="./משימה 2 - עיצוב דף ראשי.png" />
+    <title>חנות היין שלי</title>
+  </head>
+  <body>
+    <header>
+      <section class="top">
+        <a href="#">About Store</a>
+
+        <ul>
+          <li><a href="#"> Payment</a></li>
+          <li><a href="#"> Shipping</a></li>
+          <li><a href="#"> Terms</a></li>
+          <li><a href="#"> Refunds</a></li>
+          <li><a href="#"> Help Center</a></li>
+        </ul>
+
+        <select name="lang" id="lang">
+          <option value="en">English &#127482;&#127480;</option>
+          <option value="he">Hebrew &#127470;&#127473;</option>
+        </select>
+      </section>
+
+      <hr />
+
+      <section class="selection">
+        <div class="logo">
+          <img src="./לוגו יין.png" alt="wine-logo" />
+        </div>
+
+        <div class="search">
+          <select name="categories" class="categoriesSearch">
+            <option value="1">All CATEGORIES</option>
+          </select>
+          <hr />
+          <input
+            class="searchText"
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Search for product"
+          />
+
+          <button>
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+
+        <div class="shoppingCard">
+          <p>
+            3 items <span class="cost"> ($180) </span>
+            <i class="fa fa-shopping-bag bag"> &#711; </i>
+          </p>
+        </div>
+      </section>
+
+      <nav>
+        <div class="selectCategory">
+          <i class="fa fa-bars">
+            <i class="fa fa-caret-down"> Select Category</i></i
+          >
+        </div>
+
+        <ul class="blender">
+          <p class="title">Popular:</p>
+          <li>Blender</li>
+          <li>Blender1</li>
+          <li>Blender2</li>
+          <li>Blender3</li>
+        </ul>
+
+        <ul class="option">
+          <li>Order</li>
+          <li>WishList</li>
+          <li>Account</li>
+          <li><a href="./login.html">Logout</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="title">
+        <h1>Snacks & Drinks</h1>
+        <div class="sort">
+          <p>HOME - CATALOG - OLD WINE</p>
+          <div class="sortBy">
+            <p>Sort by</p>
+            <select name="sortBy">
+              <option value="1"><a href="#">Popularity</a></option>
+            </select>
+          </div>
+        </div>
+      </section>
+
+      <section class="mainPage">
+        <aside>
+          <div class="sideNav">
+            <div class="price option">
+              <div class="title">
+                <p>PRICE</p>
+                <div class="arrow">&#94;</div>
+              </div>
+              <p>$600</p>
+              <input class="range" type="range" min="60" max="2000" />
+              <div class="range">
+                <p>$60</p>
+                <p>$2000</p>
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="brands option">
+              <div class="title">
+                <p>BRANDS</p>
+                <div class="arrow">&#94;</div>
+              </div>
+              <div class="brandsSelect">
+                <div class="brand">
+                  <input
+                    type="radio"
+                    name="Type 1"
+                    placeholder="Type 1"
+                    id="type1"
+                  />
+                  <label for="type1">Type 1</label>
+                </div>
+                <div class="brand">
+                  <input
+                    type="radio"
+                    name="Type 2"
+                    placeholder="Type 2"
+                    id="type2"
+                  />
+                  <label for="type2">Type 2</label>
+                </div>
+                <div class="brand">
+                  <input
+                    type="radio"
+                    name="Type 3"
+                    placeholder="Type 3"
+                    id="type3"
+                  />
+                  <label for="type3">Type 3</label>
+                </div>
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="brands option">
+              <div class="title">
+                <p>BRANDS</p>
+                <div class="arrow">&#94;</div>
+              </div>
+
+              <div class="searchBrands">
+                <input
+                  type="search"
+                  name="searchBrands"
+                  placeholder="Search"
+                  id="searchBrand"
+                />
+                <label for="searchBrand"><i class="fa fa-search"></i></label>
+              </div>
+
+              <div class="brandsSelect">
+                <div class="brand">
+                  <input
+                    type="radio"
+                    name="Type 1"
+                    placeholder="Type 1"
+                    id="type1"
+                  />
+                  <label for="type1">Type 1</label>
+                </div>
+
+                <div class="brand">
+                  <input
+                    type="radio"
+                    name="Type 2"
+                    placeholder="Type 2"
+                    id="type2"
+                  />
+                  <label for="type2">Type 2</label>
+                </div>
+
+                <div class="brand">
+                  <input
+                    type="radio"
+                    name="Type 3"
+                    placeholder="Type 3"
+                    id="type3"
+                  />
+                  <label for="type3">Type 3</label>
+                </div>
+
+                <div class="brand">
+                  <input
+                    type="radio"
+                    name="Type 4"
+                    placeholder="Type 4"
+                    id="type4"
+                  />
+                  <label for="type4">Type 4</label>
+                </div>
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="option">
+              <div class="title">
+                <p>COLLECTION</p>
+                <div class="arrow">&#711;</div>
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="option">
+              <div class="title">
+                <p>RATING</p>
+                <div class="arrow">&#711;</div>
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="option">
+              <div class="title">
+                <p>SPECIAL</p>
+                <div class="arrow">&#711;</div>
+              </div>
+            </div>
+          </div>
+          <img class="sideCommercial" src="./פירסומת2.png" alt="commercial" />
+        </aside>
+
+        <section class="mainSection">
+          <div class="line">
+            <div class="card active">
+              <img src="./בקבוק3.png" alt="bottle img" />
+              <h3>Blenders Pride</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+              <p><b>Price: $256</b></p>
+              <div class="buyNow">
+                <h1>Buy Now</h1>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="./בקבוק1.png" alt="bottle img" />
+              <h3>Matusalem</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+              <p><b>Price: $165</b></p>
+            </div>
+
+            <div class="card">
+              <img src="./בקבוק2.png" alt="bottle img" />
+              <h3>Remi Martin</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+              <p><b>Price: $266</b></p>
+            </div>
+          </div>
+
+          <div class="commercial">
+            <img src="./פירסומת.png" alt="commercial" />
+            <div class="details">
+              <div class="text">
+                <h1>Choose your wine and</h1>
+                <h1>get it to your <span>doorstep!</span></h1>
+              </div>
+              <button>Order Now</button>
+            </div>
+          </div>
+
+          <div class="line">
+            <div class="card">
+              <img src="./בקבוק2.png" alt="bottle img" />
+              <h3>Blenders Pride</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+              <p><b>Price: $256</b></p>
+            </div>
+
+            <div class="card">
+              <img src="./בקבוק3.png" alt="bottle img" />
+              <h3>Matusalem</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+              <p><b>Price: $165</b></p>
+            </div>
+
+            <div class="card">
+              <img src="./בקבוק1.png" alt="bottle img" />
+              <h3>Remi Martin</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+              <p><b>Price: $266</b></p>
+            </div>
+          </div>
+
+          <div class="pageSelector">
+            <p>&#x2190; prev</p>
+            <ul>
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li class="active"><a href="#">3</a></li>
+              <li><a href="#">...</a></li>
+              <li><a href="#">10</a></li>
+            </ul>
+            <p>next &#x2192;</p>
+          </div>
+        </section>
+      </section>
+
+      <footer>
+        <nav class="topFooter">
+          <ul>
+            <li>
+              <b><a href="#">HOME</a></b>
+            </li>
+            <li>
+              <b><a href="#">CATALOG</a></b>
+            </li>
+            <li>
+              <b><a href="#">ORDERS</a></b>
+            </li>
+            <li>
+              <b><a href="#">WISHLIST</a></b>
+            </li>
+            <li>
+              <b><a href="#">ACCOUNT</a></b>
+            </li>
+          </ul>
+
+          <select name="lang" id="lang">
+            <option value="en">English &#127482;&#127480;</option>
+            <option value="he">Hebrew &#127470;&#127473;</option>
+          </select>
+        </nav>
+        <hr />
+        <nav class="bottomFooter">
+          <ul>
+            <li><a href="#"> Payment</a></li>
+            <li><a href="#"> Shipping</a></li>
+            <li><a href="#"> Terms</a></li>
+            <li><a href="#"> Refunds</a></li>
+            <li><a href="#"> Help Center</a></li>
+          </ul>
+
+          <div class="copyright">
+            <p>Copyright 2019 @ jay, All right reserved</p>
+          </div>
+        </nav>
+      </footer>
+    </main>
+  </body>
+</html>

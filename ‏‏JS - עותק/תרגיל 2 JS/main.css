@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100vw;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+header {
+  text-align: center;
+  margin: 0 auto;
+  background-color: seashell;
+}
+
+header ul {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+header li {
+  width: 100%;
+  font-size: 2rem;
+}
+
+header li:hover {
+  background-color: thistle;
+  color: blanchedalmond;
+}
+
+header .clock {
+  padding: 1vh;
+}
+
+main {
+  height: 100%;
+  background-color: whitesmoke;
+}
+
+.details form {
+  padding-left: 10vw;
+}
+
+.details form input,
+.details form label {
+  margin: 2vh;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  height: 70vh;
+  overflow-x: auto;
+}
+
+.card {
+  position: relative;
+  background-color: wheat;
+  border-radius: 20px;
+  padding: 2vw;
+  margin: 2vw;
+  max-height: 16vh;
+}
+
+.card .del {
+  position: absolute;
+  display: none;
+  color: red;
+  padding: 1px 3px;
+  background-color: inherit;
+  border-radius: 50%;
+  top: 8%;
+  left: 8%;
+}
+
+.card:hover .del {
+  display: block;
+}
+
+.secondPage {
+  text-align: center;
+  margin: 5vh;
+}
+.secondPage input {
+  margin: 0 2vw;
+}
+
+.secondPage div {
+  margin: 1vh;
+}
+.secondPage div button {
+  margin: 0 2vw;
+}
+
+.thirdPage {
+  text-align: center;
+}
+
+.fiboDiv {
+  margin: 2vw;
+}
+
+.tar {
+  text-align: center;
+  margin: 5vh 0;
+}
